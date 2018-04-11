@@ -6,9 +6,9 @@ print('was the service great, good or bad? Type "good" for good, "awesome" for g
 reply1 = input()
 if reply1 == 'good':
     tip = (bill*0.15)+bill
-    print('your bill inclusive of 15% tip is ' + str(tip))
+    print(f"your bill inclusive of 15% tip is {tip}")
 elif reply1 == 'awesome':
     tip = (bill*0.20)+bill
-    print('your bill inclusive of 20% tip is ' + str(tip))        
+    print(f"your bill inclusive of 20% tip is {tip}")    
 else:
-    print('there is no tip for bad services. your bill remains ' + str(bill))
+    print(f"there is no tip for bad services. your bill remains {bill}")
