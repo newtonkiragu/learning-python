@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#!/usr/bin/python
 weight = int(input('Please key in your weight: '))
 height = float(input('Please key in your height in meters: '))
 bmi = weight/(height*height)
