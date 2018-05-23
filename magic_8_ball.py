@@ -7,8 +7,7 @@ non_commital = ["Don't count on it", "My reply is no", "My sources say no", "Out
 a = random.choice(affirmative)
 b = random.choice(negative)
 c = random.choice(non_commital)
-print("ask me a random question")
-question = input()
+question = input("ask me a random question: ")
 random_number = random.randint(1,20)
 if random_number > 15:
     print(c)
